@@ -1,0 +1,1669 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StampSDKBF",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AppTrackingTransparency",
+        "printedName": "AppTrackingTransparency",
+        "declKind": "Import",
+        "moduleName": "StampSDKBF"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "StampSDKBF"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "StampSDKDelegate",
+        "printedName": "StampSDKDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "StampSDKInitializeDidEnd",
+            "printedName": "StampSDKInitializeDidEnd(result:message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10StampSDKBF0A11SDKDelegateP0A19SDKInitializeDidEnd6result7messageySb_SStF",
+            "mangledName": "$s10StampSDKBF0A11SDKDelegateP0A19SDKInitializeDidEnd6result7messageySb_SStF",
+            "moduleName": "StampSDKBF",
+            "genericSig": "<τ_0_0 where τ_0_0 : StampSDKBF.StampSDKDelegate>",
+            "sugared_genericSig": "<Self where Self : StampSDKBF.StampSDKDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:10StampSDKBF0A11SDKDelegateP",
+        "mangledName": "$s10StampSDKBF0A11SDKDelegateP",
+        "moduleName": "StampSDKBF",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "StampSDK",
+        "printedName": "StampSDK",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "StampSDK",
+                "printedName": "StampSDKBF.StampSDK",
+                "usr": "s:10StampSDKBF0A3SDKC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StampSDKDelegate",
+                "printedName": "StampSDKBF.StampSDKDelegate",
+                "usr": "s:10StampSDKBF0A11SDKDelegateP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10StampSDKBF0A3SDKC8delegateAcA0A11SDKDelegate_p_tcfc",
+            "mangledName": "$s10StampSDKBF0A3SDKC8delegateAcA0A11SDKDelegate_p_tcfc",
+            "moduleName": "StampSDKBF",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(mkey:mckey:userID:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10StampSDKBF0A3SDKC10initialize4mkey5mckey6userIDySS_S2StF",
+            "mangledName": "$s10StampSDKBF0A3SDKC10initialize4mkey5mckey6userIDySS_S2StF",
+            "moduleName": "StampSDKBF",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "show",
+            "printedName": "show(on:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10StampSDKBF0A3SDKC4show2onySo16UIViewControllerC_tF",
+            "mangledName": "$s10StampSDKBF0A3SDKC4show2onySo16UIViewControllerC_tF",
+            "moduleName": "StampSDKBF",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10StampSDKBF0A3SDKC",
+        "mangledName": "$s10StampSDKBF0A3SDKC",
+        "moduleName": "StampSDKBF",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StampSDKBF",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "StampSDKBF",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StampSDKBF",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "StampSDKBF"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "StampSDKBF",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StampSDKBF",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
+        "declKind": "Import",
+        "moduleName": "StampSDKBF"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "StampSDKBF"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UserInfo",
+        "printedName": "UserInfo",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UserInfo",
+                "printedName": "StampSDKBF.UserInfo",
+                "usr": "s:10StampSDKBF8UserInfoC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10StampSDKBF8UserInfoC6sharedACvpZ",
+            "mangledName": "$s10StampSDKBF8UserInfoC6sharedACvpZ",
+            "moduleName": "StampSDKBF",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UserInfo",
+                    "printedName": "StampSDKBF.UserInfo",
+                    "usr": "s:10StampSDKBF8UserInfoC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10StampSDKBF8UserInfoC6sharedACvgZ",
+                "mangledName": "$s10StampSDKBF8UserInfoC6sharedACvgZ",
+                "moduleName": "StampSDKBF",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "uuidStr",
+            "printedName": "uuidStr",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10StampSDKBF8UserInfoC7uuidStrSSvp",
+            "mangledName": "$s10StampSDKBF8UserInfoC7uuidStrSSvp",
+            "moduleName": "StampSDKBF",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10StampSDKBF8UserInfoC7uuidStrSSvg",
+                "mangledName": "$s10StampSDKBF8UserInfoC7uuidStrSSvg",
+                "moduleName": "StampSDKBF",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10StampSDKBF8UserInfoC7uuidStrSSvs",
+                "mangledName": "$s10StampSDKBF8UserInfoC7uuidStrSSvs",
+                "moduleName": "StampSDKBF",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10StampSDKBF8UserInfoC7uuidStrSSvM",
+                "mangledName": "$s10StampSDKBF8UserInfoC7uuidStrSSvM",
+                "moduleName": "StampSDKBF",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mKey",
+            "printedName": "mKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10StampSDKBF8UserInfoC4mKeySSSgvp",
+            "mangledName": "$s10StampSDKBF8UserInfoC4mKeySSSgvp",
+            "moduleName": "StampSDKBF",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10StampSDKBF8UserInfoC4mKeySSSgvg",
+                "mangledName": "$s10StampSDKBF8UserInfoC4mKeySSSgvg",
+                "moduleName": "StampSDKBF",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10StampSDKBF8UserInfoC4mKeySSSgvs",
+                "mangledName": "$s10StampSDKBF8UserInfoC4mKeySSSgvs",
+                "moduleName": "StampSDKBF",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10StampSDKBF8UserInfoC4mKeySSSgvM",
+                "mangledName": "$s10StampSDKBF8UserInfoC4mKeySSSgvM",
+                "moduleName": "StampSDKBF",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mcKey",
+            "printedName": "mcKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10StampSDKBF8UserInfoC5mcKeySSSgvp",
+            "mangledName": "$s10StampSDKBF8UserInfoC5mcKeySSSgvp",
+            "moduleName": "StampSDKBF",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10StampSDKBF8UserInfoC5mcKeySSSgvg",
+                "mangledName": "$s10StampSDKBF8UserInfoC5mcKeySSSgvg",
+                "moduleName": "StampSDKBF",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10StampSDKBF8UserInfoC5mcKeySSSgvs",
+                "mangledName": "$s10StampSDKBF8UserInfoC5mcKeySSSgvs",
+                "moduleName": "StampSDKBF",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10StampSDKBF8UserInfoC5mcKeySSSgvM",
+                "mangledName": "$s10StampSDKBF8UserInfoC5mcKeySSSgvM",
+                "moduleName": "StampSDKBF",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userID",
+            "printedName": "userID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10StampSDKBF8UserInfoC6userIDSSSgvp",
+            "mangledName": "$s10StampSDKBF8UserInfoC6userIDSSSgvp",
+            "moduleName": "StampSDKBF",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10StampSDKBF8UserInfoC6userIDSSSgvg",
+                "mangledName": "$s10StampSDKBF8UserInfoC6userIDSSSgvg",
+                "moduleName": "StampSDKBF",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10StampSDKBF8UserInfoC6userIDSSSgvs",
+                "mangledName": "$s10StampSDKBF8UserInfoC6userIDSSSgvs",
+                "moduleName": "StampSDKBF",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10StampSDKBF8UserInfoC6userIDSSSgvM",
+                "mangledName": "$s10StampSDKBF8UserInfoC6userIDSSSgvM",
+                "moduleName": "StampSDKBF",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "idfa",
+            "printedName": "idfa",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10StampSDKBF8UserInfoC4idfaSSSgvp",
+            "mangledName": "$s10StampSDKBF8UserInfoC4idfaSSSgvp",
+            "moduleName": "StampSDKBF",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10StampSDKBF8UserInfoC4idfaSSSgvg",
+                "mangledName": "$s10StampSDKBF8UserInfoC4idfaSSSgvg",
+                "moduleName": "StampSDKBF",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10StampSDKBF8UserInfoC4idfaSSSgvs",
+                "mangledName": "$s10StampSDKBF8UserInfoC4idfaSSSgvs",
+                "moduleName": "StampSDKBF",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10StampSDKBF8UserInfoC4idfaSSSgvM",
+                "mangledName": "$s10StampSDKBF8UserInfoC4idfaSSSgvM",
+                "moduleName": "StampSDKBF",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "modelStr",
+            "printedName": "modelStr",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10StampSDKBF8UserInfoC8modelStrSSvp",
+            "mangledName": "$s10StampSDKBF8UserInfoC8modelStrSSvp",
+            "moduleName": "StampSDKBF",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10StampSDKBF8UserInfoC8modelStrSSvg",
+                "mangledName": "$s10StampSDKBF8UserInfoC8modelStrSSvg",
+                "moduleName": "StampSDKBF",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isPermitted",
+            "printedName": "isPermitted",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10StampSDKBF8UserInfoC11isPermittedSbvp",
+            "mangledName": "$s10StampSDKBF8UserInfoC11isPermittedSbvp",
+            "moduleName": "StampSDKBF",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10StampSDKBF8UserInfoC11isPermittedSbvg",
+                "mangledName": "$s10StampSDKBF8UserInfoC11isPermittedSbvg",
+                "moduleName": "StampSDKBF",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10StampSDKBF8UserInfoC11isPermittedSbvs",
+                "mangledName": "$s10StampSDKBF8UserInfoC11isPermittedSbvs",
+                "moduleName": "StampSDKBF",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10StampSDKBF8UserInfoC11isPermittedSbvM",
+                "mangledName": "$s10StampSDKBF8UserInfoC11isPermittedSbvM",
+                "moduleName": "StampSDKBF",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10StampSDKBF8UserInfoC",
+        "mangledName": "$s10StampSDKBF8UserInfoC",
+        "moduleName": "StampSDKBF",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StampSDKBF",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StampSDKBF",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AppTrackingTransparency",
+        "printedName": "AppTrackingTransparency",
+        "declKind": "Import",
+        "moduleName": "StampSDKBF"
+      },
+      {
+        "kind": "Import",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
+        "declKind": "Import",
+        "moduleName": "StampSDKBF"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "StampSDKBF",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "StampSDKBF"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIApplication",
+        "printedName": "UIApplication",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getMostTopViewController",
+            "printedName": "getMostTopViewController(base:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So13UIApplicationC10StampSDKBFE24getMostTopViewController4baseSo06UIViewH0CSgAH_tFZ",
+            "mangledName": "$sSo13UIApplicationC10StampSDKBFE24getMostTopViewController4baseSo06UIViewH0CSgAH_tFZ",
+            "moduleName": "StampSDKBF",
+            "static": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIApplication",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIApplication",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIResponder",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 645,
+      "length": 16,
+      "value": "\"tttt - \""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 660,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1191,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 1398,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1547,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 1562,
+      "length": 11,
+      "value": "\"with idfa\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1928,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 1943,
+      "length": 11,
+      "value": "\"with idfa\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 2192,
+      "length": 118,
+      "value": "\"스탬프 적립을 위해 IDFA 정보가 필요합니다. 설정에서 광고 추적 권한을 허용해 주세요.\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 2319,
+      "length": 8,
+      "value": "\"알림\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 2343,
+      "length": 21,
+      "value": "\"설정으로 이동\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 2738,
+      "length": 8,
+      "value": "\"닫기\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/Extensions\/UserDefaults+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 1983,
+      "length": 42,
+      "value": "\"--------- StampSDK LIST BEGIN ----------\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/Extensions\/UserDefaults+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 2124,
+      "length": 19,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/Extensions\/UserDefaults+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 2131,
+      "length": 1,
+      "value": "\" : \""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/Extensions\/UserDefaults+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 2142,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/Extensions\/UserDefaults+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 2169,
+      "length": 42,
+      "value": "\"---------- StampSDK List END -----------\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/Extensions\/UserDefaults+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 2356,
+      "length": 19,
+      "value": "\"StampSDK_KEY_MKEY\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/Extensions\/UserDefaults+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 2446,
+      "length": 20,
+      "value": "\"StampSDK_KEY_MCKEY\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/Extensions\/UserDefaults+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 2538,
+      "length": 21,
+      "value": "\"StampSDK_KEY_USERID\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/Extensions\/UserDefaults+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 2629,
+      "length": 19,
+      "value": "\"StampSDK_KEY_IDFA\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/Extensions\/UserDefaults+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 2732,
+      "length": 43,
+      "value": "\"StampSDK_KEY_PERMISSION_FOR_PRIVACY_USAGE\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/Extensions\/UIViewController+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 191,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/Extensions\/UIViewController+Extensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 907,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/Utils\/NetworkConnectionStatus.swift",
+      "kind": "BooleanLiteral",
+      "offset": 459,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/UserInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 387,
+      "length": 6,
+      "value": "\"NULL\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/UserInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1543,
+      "length": 28,
+      "value": "\"SIMULATOR_MODEL_IDENTIFIER\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/Extensions\/DictionaryEncoder.swift",
+      "kind": "Array",
+      "offset": 2208,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/Utils\/TrackingViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1264,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/Utils\/TrackingViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1294,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/Utils\/TrackingViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1586,
+      "length": 12,
+      "value": "\"Authorized\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/Utils\/TrackingViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1648,
+      "length": 8,
+      "value": "\"Denied\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/Utils\/TrackingViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1713,
+      "length": 16,
+      "value": "\"Not Determined\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/Utils\/TrackingViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1783,
+      "length": 12,
+      "value": "\"Restricted\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/Utils\/TrackingViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1849,
+      "length": 9,
+      "value": "\"Unknown\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
+      "kind": "StringLiteral",
+      "offset": 171,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
+      "kind": "StringLiteral",
+      "offset": 200,
+      "length": 47,
+      "value": "\"http:\/\/dev.qtbit.co.kr:8777\/static\/stamp.html\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
+      "kind": "StringLiteral",
+      "offset": 277,
+      "length": 47,
+      "value": "\"https:\/\/doublebenefit.co.kr\/static\/stamp.html\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 741,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
+      "kind": "StringLiteral",
+      "offset": 959,
+      "length": 19,
+      "value": "\"Never Will Happen\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
+      "kind": "StringLiteral",
+      "offset": 1654,
+      "length": 17,
+      "value": "\"더블혜택존\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
+      "kind": "StringLiteral",
+      "offset": 1724,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
+      "kind": "StringLiteral",
+      "offset": 1772,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
+      "kind": "StringLiteral",
+      "offset": 1822,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
+      "kind": "StringLiteral",
+      "offset": 1868,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
+      "kind": "StringLiteral",
+      "offset": 1894,
+      "length": 16,
+      "value": "\"tttt - \""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
+      "kind": "StringLiteral",
+      "offset": 1909,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
+      "kind": "StringLiteral",
+      "offset": 1957,
+      "length": 74,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
+      "kind": "StringLiteral",
+      "offset": 1971,
+      "length": 1,
+      "value": "\"?mkey=\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
+      "kind": "StringLiteral",
+      "offset": 1984,
+      "length": 1,
+      "value": "\"&mckey=\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
+      "kind": "StringLiteral",
+      "offset": 1999,
+      "length": 1,
+      "value": "\"&adid=\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
+      "kind": "StringLiteral",
+      "offset": 2012,
+      "length": 1,
+      "value": "\"&user_id=\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
+      "kind": "StringLiteral",
+      "offset": 2030,
+      "length": 9,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
+      "kind": "StringLiteral",
+      "offset": 2092,
+      "length": 30,
+      "value": "\"tttt - \""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
+      "kind": "StringLiteral",
+      "offset": 2121,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2381,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2989,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3593,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
+      "kind": "StringLiteral",
+      "offset": 114,
+      "length": 7,
+      "value": "\"StampSDKBF.StampVC\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
+      "kind": "StringLiteral",
+      "offset": 4220,
+      "length": 8,
+      "value": "\"확인\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
+      "kind": "StringLiteral",
+      "offset": 4243,
+      "length": 8,
+      "value": "\"취소\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
+      "kind": "StringLiteral",
+      "offset": 4511,
+      "length": 8,
+      "value": "\"확인\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4574,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
+      "kind": "StringLiteral",
+      "offset": 4604,
+      "length": 8,
+      "value": "\"취소\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4651,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
+      "kind": "StringLiteral",
+      "offset": 5074,
+      "length": 13,
+      "value": "\"about:blank\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
+      "kind": "StringLiteral",
+      "offset": 5167,
+      "length": 6,
+      "value": "\"http\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
+      "kind": "StringLiteral",
+      "offset": 5191,
+      "length": 7,
+      "value": "\"https\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
+      "kind": "Dictionary",
+      "offset": 5257,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
+      "kind": "StringLiteral",
+      "offset": 5412,
+      "length": 13,
+      "value": "\"qtbit.co.kr\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
+      "kind": "Dictionary",
+      "offset": 5559,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6077,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
+      "kind": "StringLiteral",
+      "offset": 6508,
+      "length": 9,
+      "value": "\"http:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
+      "kind": "StringLiteral",
+      "offset": 6584,
+      "length": 10,
+      "value": "\"https:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
+      "kind": "StringLiteral",
+      "offset": 6661,
+      "length": 9,
+      "value": "\"mailto:\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
+      "kind": "Dictionary",
+      "offset": 6741,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6869,
+      "length": 4,
+      "value": "true"
+    }
+  ]
+}

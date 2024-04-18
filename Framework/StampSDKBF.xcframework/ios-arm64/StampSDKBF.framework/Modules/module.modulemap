@@ -1,0 +1,11 @@
+framework module StampSDKBF {
+  umbrella header "StampSDKBF.h"
+  export *
+
+  module * { export * }
+}
+
+module StampSDKBF.Swift {
+  header "StampSDKBF-Swift.h"
+  requires objc
+}

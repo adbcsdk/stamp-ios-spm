@@ -1,0 +1,55 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name StampSDKBF
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AdSupport
+import AppTrackingTransparency
+import Foundation
+import Network
+@_exported import StampSDKBF
+import Swift
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public protocol StampSDKDelegate : AnyObject {
+  func StampSDKInitializeDidEnd(result: Swift.Bool, message: Swift.String)
+}
+open class StampSDK {
+  public init(delegate: any StampSDKBF.StampSDKDelegate)
+  public func initialize(mkey: Swift.String, mckey: Swift.String, userID: Swift.String)
+  public func show(on viewController: UIKit.UIViewController)
+  @objc deinit
+}
+extension UIKit.UIApplication {
+  @_Concurrency.MainActor(unsafe) public class func getMostTopViewController(base: UIKit.UIViewController? = nil) -> UIKit.UIViewController?
+}
+@_hasMissingDesignatedInitializers public class UserInfo {
+  public static let shared: StampSDKBF.UserInfo
+  public var uuidStr: Swift.String
+  public var mKey: Swift.String? {
+    get
+    set(newAppCode)
+  }
+  public var mcKey: Swift.String? {
+    get
+    set(newAppCode)
+  }
+  public var userID: Swift.String? {
+    get
+    set(newUserID)
+  }
+  public var idfa: Swift.String? {
+    get
+    set(newIDFA)
+  }
+  public var modelStr: Swift.String {
+    get
+  }
+  public var isPermitted: Swift.Bool {
+    get
+    set(flag)
+  }
+  @objc deinit
+}
