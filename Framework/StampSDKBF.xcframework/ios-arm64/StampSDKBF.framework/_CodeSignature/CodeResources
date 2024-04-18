@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/StampSDKBF.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		TgYtaEeqVVuzMqfzXcuhbUJUd5s=
+		hVC8ri0TGw4Pto+bEmOcsXPHC2o=
 		</data>
 		<key>Modules/StampSDKBF.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/StampSDKBF.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		LpHeVW2tKSTs2zkQ75C/c1/4Nfw=
+		+RcWds+8vrsX0RKHQOLdyBReBsM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -61,7 +61,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OfxRH27/z924+t/FKsDPRYx5AAc0xOcOunTwHYcBRp4=
+			BBBwj3q+ZBFuWyOhXlGT/5p5to6A5NAiPjEPvvbEhm4=
 			</data>
 		</dict>
 		<key>Modules/StampSDKBF.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -89,7 +89,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			25JGfNDDJ6mYqzwz2CjstezcB2PvDiTAlW1w75jd1oQ=
+			rkHd6cX2pjnrmWeRbGMogOk3O9ybE74Kov4WP1f6i6U=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

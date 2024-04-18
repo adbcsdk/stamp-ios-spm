@@ -1128,85 +1128,71 @@
   "ConstValues": [
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 645,
-      "length": 16,
-      "value": "\"tttt - \""
-    },
-    {
-      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 660,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 1191,
+      "offset": 1150,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1398,
+      "offset": 1357,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 1547,
+      "offset": 1506,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1562,
+      "offset": 1521,
       "length": 11,
       "value": "\"with idfa\""
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 1928,
+      "offset": 1887,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1943,
+      "offset": 1902,
       "length": 11,
       "value": "\"with idfa\""
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDK.swift",
       "kind": "StringLiteral",
-      "offset": 2192,
+      "offset": 2151,
       "length": 118,
       "value": "\"스탬프 적립을 위해 IDFA 정보가 필요합니다. 설정에서 광고 추적 권한을 허용해 주세요.\""
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDK.swift",
       "kind": "StringLiteral",
-      "offset": 2319,
+      "offset": 2278,
       "length": 8,
       "value": "\"알림\""
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDK.swift",
       "kind": "StringLiteral",
-      "offset": 2343,
+      "offset": 2302,
       "length": 21,
       "value": "\"설정으로 이동\""
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDK.swift",
       "kind": "StringLiteral",
-      "offset": 2738,
+      "offset": 2697,
       "length": 8,
       "value": "\"닫기\""
     },
@@ -1444,91 +1430,63 @@
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "StringLiteral",
-      "offset": 1894,
-      "length": 16,
-      "value": "\"tttt - \""
-    },
-    {
-      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
-      "kind": "StringLiteral",
-      "offset": 1909,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
-      "kind": "StringLiteral",
-      "offset": 1957,
+      "offset": 1916,
       "length": 74,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "StringLiteral",
-      "offset": 1971,
+      "offset": 1930,
       "length": 1,
       "value": "\"?mkey=\""
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "StringLiteral",
-      "offset": 1984,
+      "offset": 1943,
       "length": 1,
       "value": "\"&mckey=\""
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "StringLiteral",
-      "offset": 1999,
+      "offset": 1958,
       "length": 1,
       "value": "\"&adid=\""
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "StringLiteral",
-      "offset": 2012,
+      "offset": 1971,
       "length": 1,
       "value": "\"&user_id=\""
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "StringLiteral",
-      "offset": 2030,
+      "offset": 1989,
       "length": 9,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
-      "kind": "StringLiteral",
-      "offset": 2092,
-      "length": 30,
-      "value": "\"tttt - \""
-    },
-    {
-      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
-      "kind": "StringLiteral",
-      "offset": 2121,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 2381,
+      "offset": 2285,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 2989,
+      "offset": 2893,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 3593,
+      "offset": 3497,
       "length": 5,
       "value": "false"
     },
@@ -1542,126 +1500,126 @@
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "StringLiteral",
-      "offset": 4220,
+      "offset": 4124,
       "length": 8,
       "value": "\"확인\""
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "StringLiteral",
-      "offset": 4243,
+      "offset": 4147,
       "length": 8,
       "value": "\"취소\""
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "StringLiteral",
-      "offset": 4511,
+      "offset": 4415,
       "length": 8,
       "value": "\"확인\""
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 4574,
+      "offset": 4478,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "StringLiteral",
-      "offset": 4604,
+      "offset": 4508,
       "length": 8,
       "value": "\"취소\""
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 4651,
+      "offset": 4555,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "StringLiteral",
-      "offset": 5074,
+      "offset": 4978,
       "length": 13,
       "value": "\"about:blank\""
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "StringLiteral",
-      "offset": 5167,
+      "offset": 5071,
       "length": 6,
       "value": "\"http\""
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "StringLiteral",
-      "offset": 5191,
+      "offset": 5095,
       "length": 7,
       "value": "\"https\""
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "Dictionary",
-      "offset": 5257,
+      "offset": 5161,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "StringLiteral",
-      "offset": 5412,
+      "offset": 5316,
       "length": 21,
       "value": "\"doublebenefit.co.kr\""
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "Dictionary",
-      "offset": 5567,
+      "offset": 5471,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 6085,
+      "offset": 5989,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "StringLiteral",
-      "offset": 6516,
+      "offset": 6420,
       "length": 9,
       "value": "\"http:\/\/\""
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "StringLiteral",
-      "offset": 6592,
+      "offset": 6496,
       "length": 10,
       "value": "\"https:\/\/\""
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "StringLiteral",
-      "offset": 6669,
+      "offset": 6573,
       "length": 9,
       "value": "\"mailto:\""
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "Dictionary",
-      "offset": 6749,
+      "offset": 6653,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 6877,
+      "offset": 6781,
       "length": 4,
       "value": "true"
     }
