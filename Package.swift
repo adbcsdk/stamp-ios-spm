@@ -11,8 +11,8 @@ let package = Package(
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "StampSDKBF",
-            targets: ["StampSDKBF"]),
+            name: "StampSDK",
+            targets: ["StampSDK"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -20,6 +20,10 @@ let package = Package(
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
+        .target(
+            name: "StampSDK",
+            dependencies: ["StampSDKBF"],
+            resources: [.copy("PrivacyInfo.xcprivacy")]),
         .binaryTarget(
             name: "StampSDKBF",
             path: "Framework/StampSDKBF.xcframework"),

@@ -30,89 +30,64 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "StampSDKDelegate",
-        "printedName": "StampSDKDelegate",
+        "name": "StampSDKMin",
+        "printedName": "StampSDKMin",
         "children": [
           {
-            "kind": "Function",
-            "name": "StampSDKInitializeDidEnd",
-            "printedName": "StampSDKInitializeDidEnd(result:message:)",
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "StampSDKMin",
+                "printedName": "StampSDKBF.StampSDKMin",
+                "usr": "s:10StampSDKBF0A6SDKMinC"
               }
             ],
-            "declKind": "Func",
-            "usr": "s:10StampSDKBF0A11SDKDelegateP0A19SDKInitializeDidEnd6result7messageySb_SStF",
-            "mangledName": "$s10StampSDKBF0A11SDKDelegateP0A19SDKInitializeDidEnd6result7messageySb_SStF",
+            "declKind": "Var",
+            "usr": "s:10StampSDKBF0A6SDKMinC6sharedACvpZ",
+            "mangledName": "$s10StampSDKBF0A6SDKMinC6sharedACvpZ",
             "moduleName": "StampSDKBF",
-            "genericSig": "<τ_0_0 where τ_0_0 : StampSDKBF.StampSDKDelegate>",
-            "sugared_genericSig": "<Self where Self : StampSDKBF.StampSDKDelegate>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:10StampSDKBF0A11SDKDelegateP",
-        "mangledName": "$s10StampSDKBF0A11SDKDelegateP",
-        "moduleName": "StampSDKBF",
-        "genericSig": "<τ_0_0 : AnyObject>",
-        "sugared_genericSig": "<Self : AnyObject>",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "StampSDK",
-        "printedName": "StampSDK",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(delegate:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "StampSDK",
-                "printedName": "StampSDKBF.StampSDK",
-                "usr": "s:10StampSDKBF0A3SDKC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "StampSDKDelegate",
-                "printedName": "StampSDKBF.StampSDKDelegate",
-                "usr": "s:10StampSDKBF0A11SDKDelegateP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:10StampSDKBF0A3SDKC8delegateAcA0A11SDKDelegate_p_tcfc",
-            "mangledName": "$s10StampSDKBF0A3SDKC8delegateAcA0A11SDKDelegate_p_tcfc",
-            "moduleName": "StampSDKBF",
+            "static": true,
             "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
               "AccessControl"
             ],
-            "init_kind": "Designated"
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StampSDKMin",
+                    "printedName": "StampSDKBF.StampSDKMin",
+                    "usr": "s:10StampSDKBF0A6SDKMinC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10StampSDKBF0A6SDKMinC6sharedACvgZ",
+                "mangledName": "$s10StampSDKBF0A6SDKMinC6sharedACvgZ",
+                "moduleName": "StampSDKBF",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
           },
           {
             "kind": "Function",
             "name": "initialize",
-            "printedName": "initialize(mkey:mckey:userID:)",
+            "printedName": "initialize(mkey:mckey:userID:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -136,11 +111,45 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool, Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Bool, Swift.String)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:10StampSDKBF0A3SDKC10initialize4mkey5mckey6userIDySS_S2StF",
-            "mangledName": "$s10StampSDKBF0A3SDKC10initialize4mkey5mckey6userIDySS_S2StF",
+            "usr": "s:10StampSDKBF0A6SDKMinC10initialize4mkey5mckey6userID10completionySS_S2SySb_SStXEtF",
+            "mangledName": "$s10StampSDKBF0A6SDKMinC10initialize4mkey5mckey6userID10completionySS_S2SySb_SStXEtF",
             "moduleName": "StampSDKBF",
             "declAttributes": [
               "AccessControl"
@@ -165,8 +174,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10StampSDKBF0A3SDKC4show2onySo16UIViewControllerC_tF",
-            "mangledName": "$s10StampSDKBF0A3SDKC4show2onySo16UIViewControllerC_tF",
+            "usr": "s:10StampSDKBF0A6SDKMinC4show2onySo16UIViewControllerC_tF",
+            "mangledName": "$s10StampSDKBF0A6SDKMinC4show2onySo16UIViewControllerC_tF",
             "moduleName": "StampSDKBF",
             "declAttributes": [
               "AccessControl"
@@ -175,13 +184,14 @@
           }
         ],
         "declKind": "Class",
-        "usr": "s:10StampSDKBF0A3SDKC",
-        "mangledName": "$s10StampSDKBF0A3SDKC",
+        "usr": "s:10StampSDKBF0A6SDKMinC",
+        "mangledName": "$s10StampSDKBF0A6SDKMinC",
         "moduleName": "StampSDKBF",
         "isOpen": true,
         "declAttributes": [
           "AccessControl"
-        ]
+        ],
+        "hasMissingDesignatedInitializers": true
       },
       {
         "kind": "Import",
@@ -1127,72 +1137,100 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDK.swift",
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDKMin.swift",
       "kind": "BooleanLiteral",
-      "offset": 1150,
+      "offset": 461,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDK.swift",
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDKMin.swift",
       "kind": "StringLiteral",
-      "offset": 1357,
+      "offset": 468,
+      "length": 15,
+      "value": "\"mkey is empty\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDKMin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 562,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDKMin.swift",
+      "kind": "StringLiteral",
+      "offset": 569,
+      "length": 16,
+      "value": "\"mckey is empty\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDKMin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 665,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDKMin.swift",
+      "kind": "StringLiteral",
+      "offset": 672,
+      "length": 17,
+      "value": "\"userID is empty\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDKMin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 871,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDKMin.swift",
+      "kind": "StringLiteral",
+      "offset": 877,
+      "length": 24,
+      "value": "\"init success with idfa\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDKMin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1431,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDKMin.swift",
+      "kind": "StringLiteral",
+      "offset": 1638,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDK.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1506,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDK.swift",
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDKMin.swift",
       "kind": "StringLiteral",
-      "offset": 1521,
-      "length": 11,
-      "value": "\"with idfa\""
+      "offset": 2436,
+      "length": 128,
+      "value": "\"원활한 스탬프 적립을 위해 IDFA 정보가 필요합니다. 설정에서 광고 추적 권한을 허용해 주세요.\""
     },
     {
-      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDK.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1887,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDK.swift",
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDKMin.swift",
       "kind": "StringLiteral",
-      "offset": 1902,
-      "length": 11,
-      "value": "\"with idfa\""
-    },
-    {
-      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 2151,
-      "length": 118,
-      "value": "\"스탬프 적립을 위해 IDFA 정보가 필요합니다. 설정에서 광고 추적 권한을 허용해 주세요.\""
-    },
-    {
-      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 2278,
+      "offset": 2573,
       "length": 8,
       "value": "\"알림\""
     },
     {
-      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDK.swift",
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDKMin.swift",
       "kind": "StringLiteral",
-      "offset": 2302,
+      "offset": 2597,
       "length": 21,
       "value": "\"설정으로 이동\""
     },
     {
-      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDK.swift",
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDKMin.swift",
       "kind": "StringLiteral",
-      "offset": 2697,
+      "offset": 2992,
       "length": 8,
       "value": "\"닫기\""
     },
@@ -1381,114 +1419,128 @@
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 741,
+      "offset": 915,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1101,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "StringLiteral",
-      "offset": 959,
+      "offset": 1252,
       "length": 19,
       "value": "\"Never Will Happen\""
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "StringLiteral",
-      "offset": 1654,
+      "offset": 1947,
       "length": 17,
       "value": "\"더블혜택존\""
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "StringLiteral",
-      "offset": 1724,
+      "offset": 2017,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "StringLiteral",
-      "offset": 1772,
+      "offset": 2065,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "StringLiteral",
-      "offset": 1822,
+      "offset": 2115,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "StringLiteral",
-      "offset": 1868,
+      "offset": 2161,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "StringLiteral",
-      "offset": 1916,
+      "offset": 2209,
       "length": 74,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "StringLiteral",
-      "offset": 1930,
+      "offset": 2223,
       "length": 1,
       "value": "\"?mkey=\""
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "StringLiteral",
-      "offset": 1943,
+      "offset": 2236,
       "length": 1,
       "value": "\"&mckey=\""
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "StringLiteral",
-      "offset": 1958,
+      "offset": 2251,
       "length": 1,
       "value": "\"&adid=\""
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "StringLiteral",
-      "offset": 1971,
+      "offset": 2264,
       "length": 1,
       "value": "\"&user_id=\""
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "StringLiteral",
-      "offset": 1989,
+      "offset": 2282,
       "length": 9,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 2285,
+      "offset": 2578,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 2893,
+      "offset": 3269,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 3497,
+      "offset": 3873,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
+      "kind": "FloatLiteral",
+      "offset": 4351,
+      "length": 3,
+      "value": "0.7"
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
@@ -1500,126 +1552,126 @@
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "StringLiteral",
-      "offset": 4124,
+      "offset": 4731,
       "length": 8,
       "value": "\"확인\""
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "StringLiteral",
-      "offset": 4147,
+      "offset": 4754,
       "length": 8,
       "value": "\"취소\""
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "StringLiteral",
-      "offset": 4415,
+      "offset": 5022,
       "length": 8,
       "value": "\"확인\""
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 4478,
+      "offset": 5085,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "StringLiteral",
-      "offset": 4508,
+      "offset": 5115,
       "length": 8,
       "value": "\"취소\""
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 4555,
+      "offset": 5162,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "StringLiteral",
-      "offset": 4978,
+      "offset": 5585,
       "length": 13,
       "value": "\"about:blank\""
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "StringLiteral",
-      "offset": 5071,
+      "offset": 5678,
       "length": 6,
       "value": "\"http\""
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "StringLiteral",
-      "offset": 5095,
+      "offset": 5702,
       "length": 7,
       "value": "\"https\""
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "Dictionary",
-      "offset": 5161,
+      "offset": 5768,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "StringLiteral",
-      "offset": 5316,
+      "offset": 5923,
       "length": 21,
       "value": "\"doublebenefit.co.kr\""
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "Dictionary",
-      "offset": 5471,
+      "offset": 6078,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 5989,
+      "offset": 6596,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "StringLiteral",
-      "offset": 6420,
+      "offset": 7027,
       "length": 9,
       "value": "\"http:\/\/\""
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "StringLiteral",
-      "offset": 6496,
+      "offset": 7103,
       "length": 10,
       "value": "\"https:\/\/\""
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "StringLiteral",
-      "offset": 6573,
+      "offset": 7180,
       "length": 9,
       "value": "\"mailto:\""
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "Dictionary",
-      "offset": 6653,
+      "offset": 7260,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/vc\/StampVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 6781,
+      "offset": 7388,
       "length": 4,
       "value": "true"
     }
