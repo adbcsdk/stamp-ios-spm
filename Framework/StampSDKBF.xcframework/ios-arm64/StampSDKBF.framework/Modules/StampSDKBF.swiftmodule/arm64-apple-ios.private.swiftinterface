@@ -15,7 +15,7 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 @_hasMissingDesignatedInitializers open class StampSDKMin {
   public static let shared: StampSDKBF.StampSDKMin
-  public func initialize(mkey: Swift.String, mckey: Swift.String, userID: Swift.String, completion: (Swift.Bool, Swift.String) -> ())
+  public func initialize(mkey: Swift.String, mckey: Swift.String, userID: Swift.String, completion: @escaping (Swift.Bool, Swift.String) -> ())
   public func show(on viewController: UIKit.UIViewController)
   @objc deinit
 }

@@ -141,15 +141,12 @@
                       }
                     ]
                   }
-                ],
-                "typeAttributes": [
-                  "noescape"
                 ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:10StampSDKBF0A6SDKMinC10initialize4mkey5mckey6userID10completionySS_S2SySb_SStXEtF",
-            "mangledName": "$s10StampSDKBF0A6SDKMinC10initialize4mkey5mckey6userID10completionySS_S2SySb_SStXEtF",
+            "usr": "s:10StampSDKBF0A6SDKMinC10initialize4mkey5mckey6userID10completionySS_S2SySb_SStctF",
+            "mangledName": "$s10StampSDKBF0A6SDKMinC10initialize4mkey5mckey6userID10completionySS_S2SySb_SStctF",
             "moduleName": "StampSDKBF",
             "declAttributes": [
               "AccessControl"
@@ -1139,100 +1136,135 @@
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDKMin.swift",
       "kind": "BooleanLiteral",
-      "offset": 461,
+      "offset": 528,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDKMin.swift",
       "kind": "StringLiteral",
-      "offset": 468,
+      "offset": 535,
       "length": 15,
       "value": "\"mkey is empty\""
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDKMin.swift",
       "kind": "BooleanLiteral",
-      "offset": 562,
+      "offset": 629,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDKMin.swift",
       "kind": "StringLiteral",
-      "offset": 569,
+      "offset": 636,
       "length": 16,
       "value": "\"mckey is empty\""
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDKMin.swift",
       "kind": "BooleanLiteral",
-      "offset": 665,
+      "offset": 732,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDKMin.swift",
       "kind": "StringLiteral",
-      "offset": 672,
+      "offset": 739,
       "length": 17,
       "value": "\"userID is empty\""
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDKMin.swift",
       "kind": "BooleanLiteral",
-      "offset": 871,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDKMin.swift",
-      "kind": "StringLiteral",
-      "offset": 877,
-      "length": 24,
-      "value": "\"init success with idfa\""
-    },
-    {
-      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDKMin.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1431,
+      "offset": 1682,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDKMin.swift",
       "kind": "StringLiteral",
-      "offset": 1638,
+      "offset": 1755,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDKMin.swift",
       "kind": "StringLiteral",
-      "offset": 2436,
+      "offset": 1990,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDKMin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2235,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDKMin.swift",
+      "kind": "StringLiteral",
+      "offset": 2241,
+      "length": 18,
+      "value": "\"초기화 성공\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDKMin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2745,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDKMin.swift",
+      "kind": "StringLiteral",
+      "offset": 2751,
+      "length": 18,
+      "value": "\"초기화 성공\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDKMin.swift",
+      "kind": "StringLiteral",
+      "offset": 3029,
       "length": 128,
       "value": "\"원활한 스탬프 적립을 위해 IDFA 정보가 필요합니다. 설정에서 광고 추적 권한을 허용해 주세요.\""
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDKMin.swift",
       "kind": "StringLiteral",
-      "offset": 2573,
+      "offset": 3166,
       "length": 8,
       "value": "\"알림\""
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDKMin.swift",
       "kind": "StringLiteral",
-      "offset": 2597,
+      "offset": 3190,
       "length": 21,
       "value": "\"설정으로 이동\""
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDKMin.swift",
       "kind": "StringLiteral",
-      "offset": 2992,
+      "offset": 3585,
       "length": 8,
       "value": "\"닫기\""
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDKMin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3688,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/StampSDKMin.swift",
+      "kind": "StringLiteral",
+      "offset": 3694,
+      "length": 18,
+      "value": "\"초기화 성공\""
     },
     {
       "filePath": "\/Users\/ars\/Dev\/ios\/StampSDKBF\/StampSDKBF\/Extensions\/UserDefaults+Extensions.swift",

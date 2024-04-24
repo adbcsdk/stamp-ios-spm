@@ -16,7 +16,7 @@ open class StampSDK {
     public init() {
     }
     
-    public func initialize(mkey: String, mckey: String, userID: String, completion: (Bool, String) -> ()) {
+    public func initialize(mkey: String, mckey: String, userID: String, completion: @escaping (Bool, String) -> ()) {
         stamp.initialize(mkey: mkey, mckey: mckey, userID: userID, completion: completion)
     }
     
