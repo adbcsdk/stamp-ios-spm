@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/StampSDKBF-Swift.h</key>
 		<data>
-		9rS54eVU3fIJJ9FO4Lz3lAkXVxw=
+		dJE/uh4di9PI0W67HCOEOjNwIc0=
 		</data>
 		<key>Headers/StampSDKBF.h</key>
 		<data>
@@ -14,27 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		4ilh+js3P4JgS9acmpGxwphv57U=
+		KpPx0z4mxQDmw4Bx+OdmKdkkrLQ=
 		</data>
 		<key>Modules/StampSDKBF.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		qEhD4aBYnR0SVnFcRmDb1h3/3Pk=
+		Ip73Bino8l7XsqRShRjxmQQg5bg=
 		</data>
 		<key>Modules/StampSDKBF.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		ocSDBIiK2/Gw/9mmAuS+QZyeQdQ=
+		F9fdlOvDs3a8XlDiICVmw4vehaQ=
 		</data>
 		<key>Modules/StampSDKBF.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		gqpVziCbx1HDTNoE/Zu3+BBPaVU=
+		V1v0kD9FaqcB/BXXtzb/fKMJcB4=
 		</data>
 		<key>Modules/StampSDKBF.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		ocSDBIiK2/Gw/9mmAuS+QZyeQdQ=
+		F9fdlOvDs3a8XlDiICVmw4vehaQ=
 		</data>
 		<key>Modules/StampSDKBF.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		4hsCLZv4zl+zqA1QOhMQQ+rWvR0=
+		/dPJ6yjk3U99WZNSWYQcJ9PN9Co=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -47,7 +47,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bjqvb4VU08U5zg7rtMj5yEqu0lH+QLIkj0B+yt2FebI=
+			3GDHshVnzOImTbAs+0lZA7A9JCaiyBv2ScUwgLH2Gzk=
 			</data>
 		</dict>
 		<key>Headers/StampSDKBF.h</key>
@@ -61,35 +61,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mwAAt4+eO+FwvWbW/nrSioXZoz3tBuHg/VnXmJgeANY=
+			dRvGYgqwz1NM5M/oHwEFT7lvMHZWOQMEkU+ECOsJbis=
 			</data>
 		</dict>
 		<key>Modules/StampSDKBF.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nw+rhZ8PCl6wiuQguy0Boy4nV70iWRAB3Lys98xMpsM=
+			C/NCSEsqjLYylrBDLg3otuWDZ0Oyol/27FiSCAk4/pk=
 			</data>
 		</dict>
 		<key>Modules/StampSDKBF.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dcAQRmmiq29wdi41UYjDjDPBbYQkXJg/1MvVm+/UM1Q=
+			J6zRwCHYj6ftMiou1W23mfKL/sV/OwP4gH6JxjnppvM=
 			</data>
 		</dict>
 		<key>Modules/StampSDKBF.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nw+rhZ8PCl6wiuQguy0Boy4nV70iWRAB3Lys98xMpsM=
+			C/NCSEsqjLYylrBDLg3otuWDZ0Oyol/27FiSCAk4/pk=
 			</data>
 		</dict>
 		<key>Modules/StampSDKBF.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			46y7Hsh5ZzPYkqL+kbC5sRK+0gEJvdo0RQXgNkwyvdM=
+			BUwYJErj0U8peKVUhLVNQmIPd1fYAfEPjjPf3rARlLs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

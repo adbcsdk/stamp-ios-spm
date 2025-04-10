@@ -23,4 +23,8 @@ open class StampSDK {
     public func show(on viewController: UIViewController) {
         stamp.show(on: viewController)
     }
+    
+    public func setTestMode(isTest: Bool) {
+        stamp.setTestMode(isTest: isTest)
+    }
 }
