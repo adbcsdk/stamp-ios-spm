@@ -38,7 +38,7 @@
 		</data>
 		<key>ios-arm64/StampSDKBF.framework/StampSDKBF</key>
 		<data>
-		jm355VnbpCujBVfOmuZXHmDrxC0=
+		Uvq+7LqXnu9RjK6h8ymx0DR07dc=
 		</data>
 		<key>ios-arm64/StampSDKBF.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -94,7 +94,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/StampSDKBF.framework/StampSDKBF</key>
 		<data>
-		rXLJnsSYNRVYr9AUofJoMy6tFEU=
+		jmblP8qsMFULYu3ieo4vfn5e6hw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/StampSDKBF.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -195,11 +195,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jm355VnbpCujBVfOmuZXHmDrxC0=
+			Uvq+7LqXnu9RjK6h8ymx0DR07dc=
 			</data>
 			<key>hash2</key>
 			<data>
-			CWyOUEaVgRU7yVOJ2IUHw6ZTLkFHGQ7fRNFIBU4fznU=
+			tr48yUQPe8NNPpjgvGDmMxPA2vWfTGTpjzB+ZImnfQs=
 			</data>
 		</dict>
 		<key>ios-arm64/StampSDKBF.framework/_CodeSignature/CodeResources</key>
@@ -349,11 +349,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rXLJnsSYNRVYr9AUofJoMy6tFEU=
+			jmblP8qsMFULYu3ieo4vfn5e6hw=
 			</data>
 			<key>hash2</key>
 			<data>
-			6vd6snm3TZZrnURGiauabqik7XoiUiLhJ0Flp5+Wlw8=
+			xS9CEd5btxx+KYl/uvMaziRF8oqMi3o9D2VPTFl0Cbk=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/StampSDKBF.framework/_CodeSignature/CodeResources</key>
